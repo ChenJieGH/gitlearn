@@ -17,6 +17,12 @@ git教学
 --git add .：将文件的修改，文件的新建，添加到暂存区。
 --git add -A：将文件的修改，文件的删除，文件的新建，添加到暂存区。
 
+--分支的创建，合并，管理（开发时提交代码到分支，发布版本合并分支到master,在master分支发布版本）
+--git checkout -b dev 创建dev分支
+--git branch 查看当前分支
+--git checkout 分支名称 ==分支切换
+--git merge 其他分支名称  ==分支合并
+--git branch -d dev  删除分支
 
 
 查看用户名和邮箱地址：
@@ -38,3 +44,7 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 --第四步：把本地仓库的内容推送到GitHub仓库
 1.$ git remote add origin git@github.com:michaelliao/learngit.git
 2.$ git push -u origin master
+
+
+
+
