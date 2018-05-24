@@ -27,8 +27,8 @@ $ git config user.email
 $ git config --global user.name "username"
 $ git config --global user.email "email"
 
-
-
+--在github上克隆一个git库到本地
+$ git clone git@github.com:michaelliao/gitskills.git
 
 --第一步：创建SSH Key
 在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：
