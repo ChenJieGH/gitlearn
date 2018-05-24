@@ -1,0 +1,6 @@
+git教学
+1.mkdir gitlearn --创建文件夹
+2.cd gitlearn --cd到该文件下
+3.git init --将gitlearn文件变成一个git仓库
+4.git add filename --添加文件
+5.git commit -m "注释" --提交文件 -m 是添加修改说明
