@@ -1,3 +1,4 @@
+chen.jie@partnersoft.cn
 git教学
 1.mkdir gitlearn --创建文件夹
 2.cd gitlearn --cd到该文件下
