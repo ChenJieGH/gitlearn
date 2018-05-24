@@ -2,5 +2,13 @@ git教学
 1.mkdir gitlearn --创建文件夹
 2.cd gitlearn --cd到该文件下
 3.git init --将gitlearn文件变成一个git仓库
-4.git add filename --添加文件
-5.git commit -m "注释" --提交文件 -m 是添加修改说明
+4.git add filename --添加文件至暂存区
+5.git commit -m "注释" --提交文件至仓库 -m 是添加修改说明
+
+
+--git reset --hard HEAD^ 版本回退到上一个版本
+--git log 查看历史文件
+--git log --pretty=oneline 查看简略信息
+--git add -u：将文件的修改、文件的删除，添加到暂存区。
+--git add .：将文件的修改，文件的新建，添加到暂存区。
+--git add -A：将文件的修改，文件的删除，文件的新建，添加到暂存区。
